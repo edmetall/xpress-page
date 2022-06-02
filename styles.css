@@ -1,0 +1,36 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* background-color: #001; */
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: rgb(244, 244, 244) !important;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    overflow-y: scroll;
+    font-size: medium;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    background-image: linear-gradient(to right, #434343 0%, black 100%) !important;
+}
+
+#about{
+    background-color: rgb(244, 244, 244);
+    color: #434343;
+    text-align: justify;
+}
+#contact a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+}
+
+a .navbar-brand{
+    cursor: pointer;
+    text-decoration: none;
+}
